@@ -1,0 +1,7 @@
+{
+  "name": "konsta",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "custom"
+}

@@ -24,7 +24,8 @@
     "validate": "npm-run-all --parallel check-format lint",
     "release": "npm run validate && node ./scripts/release",
     "changelog": "npx conventional-changelog -p angular -i CHANGELOG.md -u -s",
-    "build-sponsors": "node ./scripts/build-sponsors.js"
+    "build-sponsors": "node ./scripts/build-sponsors.js",
+    "ionic:build": "npm run build"
   },
   "devDependencies": {
     "@babel/cli": "^7.21.0",
@@ -72,6 +73,13 @@
     "vue-router": "^4.1.6"
   },
   "dependencies": {
+    "@capacitor/android": "5.0.3",
+    "@capacitor/app": "5.0.2",
+    "@capacitor/cli": "5.0.3",
+    "@capacitor/core": "5.0.3",
+    "@capacitor/haptics": "5.0.2",
+    "@capacitor/keyboard": "5.0.2",
+    "@capacitor/status-bar": "5.0.2",
     "konsta": "file:src"
   }
 }

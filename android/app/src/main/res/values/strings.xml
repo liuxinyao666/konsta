@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">konsta</string>
+    <string name="title_activity_main">konsta</string>
+    <string name="package_name">com.konsta</string>
+    <string name="custom_url_scheme">com.konsta</string>
+</resources>
